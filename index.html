@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - ENTERTAINMENT</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Apply styles to make the video fullscreen */
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+            /* Hide scrollbars */
+        }
+
+        /* Apply styles to center the video */
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Remove video controls and autoplay */
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Cover the entire screen without stretching */
+        }
+
+        /* Style for content */
+        .content {
+            position: relative;
+            z-index: 1;
+            /* Place content above the video */
+            text-align: center;
+            padding: 20px;
+            color: #ffffff; /* Set the text color to white */
+        }
+
+        /* Style for headings */
+        h1 {
+            color: magenta; /* Set heading text color to magenta */
+        }
+      h2 {
+        color: Blue;
+      }
+        /* Style for links */
+        a {
+            color: #228B22; /* Set link text color to orange */
+            text-decoration: none; /* Remove underlines from links */
+        }
+
+        /* Style for the paragraph */
+        p {
+            color: magenta; /* Set paragraph text color to magenta */
+        }
+    </style>
+    <title>Fullscreen Background Video</title>
+</head>
+
+<body>
+    <div class="background-video">
+        <video autoplay loop muted>
+            <source src="https://shorturl.at/bgBIN" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <h1>🌐"ENTERTAINMENT"🌐</h1>
+       <head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Random Sentence Generator</title>
+			</head>
+
+			<body>
+				<h2>
+					<p id="randomSentence"></p>
+				</h2>
+
+				<script>
+					// Array of predetermined sentences
+					const sentences = [
+						 '“MAY THE FORCE BE WITH YOU.”',
+ '“THERES NO PLACE LIKE HOME.”',
+'“IM THE KING OF THE WORLD!”',
+'“CARPE DIEM. SEIZE THE DAY, BOYS. MAKE YOUR LIVES EXTRAORDINARY.”',
+'"ELEMENTARY, MY DEAR WATSON."' ,
+'“ITS ALIVE! ITS ALIVE!”',
+'“MY MAMA ALWAYS SAID LIFE WAS LIKE A BOX OF CHOCOLATES. YOU NEVER KNOW WHAT UR GONNA GET.”',
+'“I WILL BE BACK.”',
+'“YOURE GONNA NEED A BIGGER BOAT.”',
+'“HERES LOOKING AT YOU, KID.”' ,
+ '“MY PRECIOUS.”' ,
+'“HOUSTON, WE HAVE A PROBLEM.”' ,
+'“THERES NO CRYING IN BASEBALL!”',
+'“E.T. PHONE HOME.”',
+'“YOU CANT HANDLE THE TRUTH!”',
+'“A MARTINI. SHAKEN, NOT STIRRED.”',
+'“LIFE IS A BANQUET, AND MOST POOR SUCKERS ARE STARVING TO DEATH!”' ,
+'“IF YOU BUILD IT, HE WILL COME.”',
+'“THE STUFF THAT DREAMS ARE MADE OF."',
+'“MAGIC MIRROR ON THE WALL, WHO IS THE FAIREST ONE OF ALL?"',
+'“KEEP YOUR FRIENDS CLOSE, BUT YOUR ENEMIES CLOSER.”',
+'“I AM YOUR FATHER.”',
+'“JUST KEEP SWIMMING.”',
+'“TODAY, I CONSIDER MYSELF THE LUCKIEST MAN ON THE FACE OF THE EARTH.”',
+'“YOU IS KIND. YOU IS SMART. YOU IS IMPORTANT.”',
+'“WHAT WEVE GOT HERE IS FAILURE TO COMMUNICATE.”',
+'“HASTA LA VISTA, BABY.”',
+'“YOU DONT UNDERSTAND! I COULDA HAD CLASS. I COULDA BEEN A CONTENDER. I COULDA BEEN SOMEBODY, INSTEAD OF A BUM, WHICH IS WHAT I AM.”',
+'"BOND. JAMES BOND."',
+
+						// Add more sentences as needed
+					];
+					// Function to generate a random sentence
+					function generateRandomSentence() {
+						// Get a random index from the array
+						const randomIndex = Math.floor(Math.random() * sentences.length);
+						// Get the random sentence based on the random index
+						const randomSentence = sentences[randomIndex];
+						// Display the random sentence on the web page
+						document.getElementById("randomSentence").textContent = randomSentence;
+					}
+					// Call the function to generate a random sentence initially
+					generateRandomSentence();
+				</script>
+			</body>
+
+        <ul>
+           <li>
+                <h3><a href="https://wxvybone.github.io/CONSTRUCTION/">"BIG SCREEN"</a></h3>
+            </li>
+            <li>
+                <h3><a href="https://wxvybone.github.io/CONSTRUCTION/">"SMALL $CREEN"</a></h3>
+            </li>
+            <li>
+                <h3><a href="https://wxvybone.github.io/CONSTRUCTION/">"OUR FAV ACTOR$"</a></h3>
+            </li>
+            <li>
+                <h3><a href="https://wxvybone.github.io/CONSTRUCTION/">"OUR FAV DIRECTOR$"</a></h3>
+            </li>
+            <li>
+                <h3><a id="randomRedirectLink" href="#">$URPRISE ME</a></h3>
+            </li>
+        </ul>
+  
+  
+    <div class="return">
+        <h4><a href="#" onclick="goBack()">"Return to WXVY'S WORLD"</a></h4>
+    </div>
+
+    <script>
+        // Function to navigate back in the browsing history
+        function goBack() {
+            window.history.back();
+        }
+
+        // Array of preselected URLs
+        const links = [
+'https://youtu.be/S6bI7I1ScL4?si=UHkV9PRVepcK-z8w', 
+'https://youtu.be/CXhoCYfMn78?si=g906YfijVsPAZqM2', 
+'https://youtu.be/y4jUy9yGP48?si=KOF_JOGZTxZzDbWn', 
+'https://youtu.be/VrsEpYLFqhI?si=LiK_2O07PubzIE8N', 
+'https://youtu.be/h1CqzntEZZ8?si=Oacsb5poGexijjsy', 
+'https://youtu.be/uYPoLqx9N6c?si=hqaZgfs05otoMlNH', 
+'https://youtu.be/DsGHpY4nwbw?si=7ej2lb-_IvK4B009', 
+'https://youtu.be/nts0x9Lahm0?si=af6T3TFb9T6X0eag', 
+'https://youtu.be/i2mYPyelRng?si=3Dqgb84sIuJHuHc3', 
+'https://youtu.be/kXEyIjTYMmU?si=ZoLWXvPC1Zuq0Oot', 
+'https://youtu.be/-ffkn3MPXGs?si=ZbGLuVFG4XGQ8zOl', 
+'https://youtu.be/fDwXCB6QYkk?si=q1WQ_DcBF23sHbo1', 
+            // Your list of URLs here
+        ];
+
+        // Variable to store the previously selected URL
+        let previousURL = null;
+
+        // Function to generate a random index that is not the same as the previous one
+        function getRandomIndexWithoutDuplicate() {
+            let randomIndex;
+            do {
+                randomIndex = Math.floor(Math.random() * links.length);
+            } while (randomIndex === previousURL);
+            previousURL = randomIndex;
+            return randomIndex;
+        }
+
+        // Function to redirect to a random link in a new tab
+        function redirectToRandomLink(event) {
+            // Prevent the default behavior of the anchor element (preventing it from navigating)
+            event.preventDefault();
+
+            // Get a random index that is not the same as the previous one
+            const randomIndex = getRandomIndexWithoutDuplicate();
+
+            // Get the random URL based on the random index
+            const randomURL = links[randomIndex];
+
+            // Open the random URL in a new tab
+            window.open(randomURL, '_blank');
+        }
+
+        // Add a click event listener to the anchor link
+        document.getElementById("randomRedirectLink").addEventListener("click", redirectToRandomLink);
+    </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
